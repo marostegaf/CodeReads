@@ -2,10 +2,10 @@
 
 :root {
   --bg-color: #ffffff;
-  --button-color: #64a4f8;
+  --button-color: #4a94f5;
   --text-title-color: #fc6621;
   --text-description-color: #fc6621;
-  --text-price-color: #01223b;
+  --text-price-color: #002f52;
   --text-author-color: #858585;
   --text-tag-color: #9c9c9c;
 }
@@ -29,11 +29,11 @@ body {
   font-size: 2.5rem;
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
-  color: #64a4f8;
+  color: #4a94f5;
 }
 
 .banner {
-  background: linear-gradient(#64a4f821, #64a4f83a), url("imagens/Banner-1.png") center;
+  background: linear-gradient(#4a94f500, #4a94f5b4), url("imagens/Banner-1.png") center;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
