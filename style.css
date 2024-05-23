@@ -2,9 +2,9 @@
 
 :root {
   --bg-color: #ffffff;
-  --button-color: #4a94f5;
-  --text-title-color: #fc6621;
-  --text-description-color: #fc6621;
+  --button-color: #2B3499 ;
+  --text-title-color: #FF6C22;
+  --text-description-color: #FF6C22;
   --text-price-color: #002f52;
   --text-author-color: #858585;
   --text-tag-color: #9c9c9c;
@@ -19,26 +19,22 @@ body {
   justify-content: center;
   align-items: center;
   margin: 1rem 0;
+  gap: 5px;
 }
 
 .header img {
-  width: 80px;
+  width: 40px;
 }
 
 .header h1 {
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
-  color: #4a94f5;
+  color: #2B3499;
 }
 
 .banner {
-  background: linear-gradient(to right, #ffffff, #ffffffbb), url("imagens/FundoBanner.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  height: 160px;
+  padding: 15px 0;
 
   display: flex;
   flex-direction: column;
@@ -175,7 +171,7 @@ body {
     justify-content: space-between;
     align-items: center;
     height: 100%;
-    margin: 3rem 0;
+    margin: 2rem 0;
     flex-wrap: wrap;
   }
 
@@ -189,15 +185,10 @@ body {
     padding: 10px 16px;
     margin: 5px 5px;
     border-radius: 8px;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
-  }
-
-  .banner {
-    height: 140px;
-    background: linear-gradient(to right, #ffffff, #ffffffdc), url("imagens/FundoBanner.jpg");
   }
 
   .banner h1 {
@@ -208,7 +199,7 @@ body {
   .banner p {
     text-align: center;
     width: 90%;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     color: #fc6621;
   }
 
