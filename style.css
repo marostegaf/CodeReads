@@ -33,7 +33,7 @@ body {
 }
 
 .banner {
-  background: linear-gradient(to right, #ffffff, #ffffffbb), url("imagens/teste.jpg");
+  background: linear-gradient(to right, #ffffff, #ffffffbb), url("imagens/FundoBanner.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -197,6 +197,7 @@ body {
 
   .banner {
     height: 140px;
+    background: linear-gradient(to right, #ffffff, #ffffffdc), url("imagens/FundoBanner.jpg");
   }
 
   .banner h1 {
