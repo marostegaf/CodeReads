@@ -13,3 +13,5 @@ function ordenarLivrosPorPreco() {
     }
     exibirOsLivrosNaTela(livrosOrdenados);
 }
+
+// Vai ordenar o preço dos livros de Menor para Maior e se clicado novamente de Maior para Menor

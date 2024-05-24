@@ -2,8 +2,9 @@ const elementoParaInserirLivros = document.getElementById("livros");
 const elementoValorTotalDeLivros = document.getElementById("valor_total_livros_disponiveis");
 
 function exibirOsLivrosNaTela(listaDeLivros) {
+  elementoParaInserirLivros.innerHTML = ""
   elementoValorTotalDeLivros.innerHTML = ""
-    elementoParaInserirLivros.innerHTML = ""
+  // Só vai ser mostrado o valorTotalDeLivros quando o botão for "livros disponíveis"
     listaDeLivros.forEach(livro => {
       // let disponibilidade = verificarDisponibilidadeDoLivro(livro);
       let disponibilidade = livro.quantidade > 0 ? "livro__imagens" : "livro__imagens indisponivel";
@@ -21,12 +22,6 @@ function exibirOsLivrosNaTela(listaDeLivros) {
       </div>
         `
     })
-}  
+}
 
-// function verificarDisponibilidadeDoLivro(livro) {
-//   if (livro.quantidade > 0) {
-//     return "livro_imagens"
-//   } else {
-//     return "livro_imagens indisponivel"
-//   }
-// }
+// Vai limpar os conteúdos anteriores após isso vai ler a ListaDeLivros e vai pegar os dados da API

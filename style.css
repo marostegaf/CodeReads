@@ -18,7 +18,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 1rem 0;
+  margin: 2rem 0;
   gap: 5px;
 }
 
@@ -30,7 +30,7 @@ body {
   font-size: 1.8rem;
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
-  color: #2B3499;
+  color: var(--button-color);
 }
 
 .banner {
@@ -45,12 +45,12 @@ body {
 
 .banner h1 {
   font-size: 2.2rem;
-  color: #fc6621;
+  color: var(--text-title-color);
 }
 
 .banner p {
   font-size: 1.1rem;
-  color: #fc6621;
+  color: var(--text-title-color);
 }
 
 .wrap {
@@ -193,14 +193,12 @@ body {
 
   .banner h1 {
     font-size: 1.2rem;
-    color: #fc6621;
   }
   
   .banner p {
     text-align: center;
     width: 90%;
-    font-size: 0.9rem;
-    color: #fc6621;
+    font-size: 0.9rem;  
   }
 
   .livros {
